@@ -2,9 +2,10 @@
   "name": "vercel-img-processor",
   "private": true,
   "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc -e && vite build",
     "preview": "vite preview"
   },
   "dependencies": {

@@ -4,9 +4,8 @@ import { Processor } from './Editor';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Processor />
-      </header>
+      <header className="App-header">TEST</header>
+      <Processor />
     </div>
   );
 }
