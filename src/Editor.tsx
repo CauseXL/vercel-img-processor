@@ -1,4 +1,4 @@
-import Editor from "tezign-intelligence-images-processor";
+import Editor from "images-processor";
 
 export const data = {
   title: "工程E30DD1",
