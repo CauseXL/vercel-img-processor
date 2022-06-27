@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@originjs/vite-plugin-commonjs': ^1.0.3
   '@types/node': ^18.0.0
   '@types/react': ^17.0.0
   '@types/react-dom': ^17.0.0
@@ -20,6 +21,7 @@ dependencies:
   react-dom: 17.0.2_react@17.0.2
 
 devDependencies:
+  '@originjs/vite-plugin-commonjs': 1.0.3
   '@types/node': 18.0.0
   '@types/react': 17.0.47
   '@types/react-dom': 17.0.17
@@ -501,6 +503,12 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
+
+  /@originjs/vite-plugin-commonjs/1.0.3:
+    resolution: {integrity: sha512-KuEXeGPptM2lyxdIEJ4R11+5ztipHoE7hy8ClZt3PYaOVQ/pyngd2alaSrPnwyFeOW1UagRBaQ752aA1dTMdOQ==}
+    dependencies:
+      esbuild: 0.14.47
+    dev: true
 
   /@rollup/pluginutils/4.2.1:
     resolution: {integrity: sha512-iKnFXr7NkdZAIHiIWE+BX5ULi/ucVFYWD6TbAV+rZctiRTY2PL6tsIKhoIOaoskiWAkgu+VsbXgUVDNLHf+InQ==}
