@@ -9,4 +9,7 @@ export default defineConfig({
     jsxFactory: "h",
     jsxFragment: "Fragment",
   },
+  optimizeDeps: {
+    include: ["mutationobserver-shim"],
+  },
 });
