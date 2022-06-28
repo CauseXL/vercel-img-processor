@@ -4,12 +4,9 @@ import { viteCommonjs } from '@originjs/vite-plugin-commonjs'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), viteCommonjs()],
+  plugins: [react()],
   esbuild: {
     jsxFactory: "h",
     jsxFragment: "Fragment",
-  },
-  optimizeDeps: {
-    include: ["mutationobserver-shim"],
-  },
+  }
 });
